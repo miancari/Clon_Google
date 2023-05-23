@@ -1,0 +1,268 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#body{
+    background: white;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+#header {
+    display: flex;
+    width: auto;
+    height: 60px;
+    margin: auto;
+    padding: 6px;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+#section_header {
+    width: 268px;
+    height: 48px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 4 px 0 px 32px;
+}
+
+#subheader1 {
+    display: flex;
+    align-items: center;
+    width: 136.05px;
+    height: 23.991px;
+    padding: 0px 15px 0px 0px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+}
+
+#subheader2 {
+    display: flex;
+    align-content: center;
+    width: 95.97px;
+    height: 47.98px;
+    }
+
+.sect_1 {
+    display: inline-block;
+    padding-left: 15px;
+    color: black;
+}
+
+.sect_1:link {
+    text-decoration: none;
+}
+
+.sect_1:hover {
+    text-decoration: underline;
+}
+
+.sect_3 {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 4px;    
+}
+
+.img1 {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px 4px 4px 4px;
+}
+
+.img1:hover {
+    background-color: rgb(212, 210, 210);
+    border-radius: 50%;
+}
+
+.img2 {
+    height: 33px;
+    width: 33px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 32px;
+}
+
+.img2:hover {
+    background-color: rgb(212, 210, 210);
+}
+
+#main_sect_1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 276px;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    padding: 20px 20px 0 20px;
+}
+
+#main_sect_2 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 560.185px;
+    height: 40.99px;
+    padding: 5px 8px 0 14px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    border-color: darkgrey;
+    }
+
+#main_sect_2:hover {
+        box-shadow: 0px 0px 4px 8px rgba(182, 178, 178, 0.24);
+    }
+
+.search {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    background-image: url(/Imagenes/buscar.svg);  
+    background-position: left;
+    border-style: hidden;      
+}
+
+input {
+    width: 443.22px;
+    height: 27px;
+    outline: none;
+    border: hidden;
+}
+
+.micro {
+    display: inline-block;
+    width: 24px;
+    height: 27px;
+    padding: 0 8px;
+    background-image: url(/Imagenes/microfono.svg);
+    background-color: white;
+    background-position: center; ;
+    outline: none;
+}
+
+.cam {
+    display: inline-block;
+    width: 24px;
+    height: 27px;
+    padding: 0 8px;
+    background-image: url(/Imagenes/camara.svg);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: white;
+    background-position: center;
+}
+
+.botton{
+    outline: none;
+    border: hidden;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    width: 584px;
+    height: 88px;
+    padding: 18px 0 0;
+}
+
+.button {
+    width: 154  .88px;
+    height: 35.99px;
+    background: #f8f9fa;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border: 1px solid #dadce0;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+#sect4 {
+    height: 152.73px;
+    margin: 0 0 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ofrecido {
+    display: inline-block;
+    width: 350px;
+    height: 28px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.ofrecido p a:hover {
+    text-decoration: none;
+}
+
+footer {
+    background: #f2f2f2;
+    display: block;
+    height: 94.55px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer div {
+    height: 17.274;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+
+}
+
+footer div p {
+    color: #999da2;
+    font-family: Arial, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    
+}
+
+footer section div {
+    display: flex;
+    color: #999da2;
+    gap: 18px;
+}
+
+footer section div a {
+    color: #999da2;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    
+}
+
+footer section div a:hover {
+    border-bottom: 1 px solid black;
+}
+
+
+
+
+
+
+
